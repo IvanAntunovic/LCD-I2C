@@ -18,8 +18,6 @@ class I2CReceiver : public Readable
 		
 	private:
 		int8_t readByte(uint8_t* byte, uint8_t receiveSignal);
-		int8_t readByteAck(uint8_t* byte);
-		int8_t readByteNak(uint8_t* byte);
 };
 
 #endif
